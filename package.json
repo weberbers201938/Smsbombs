@@ -12,12 +12,11 @@
   "author": "Berwin",
   "license": "MIT",
   "dependencies": {
-    // Add any required dependencies here
+    
   },
   "devDependencies": {
-    // Add any development dependencies if needed
+    
   },
   "engines": {
-    "node": ">=20.0.0"  // Ensures compatibility with Node.js 20 as per your preference
-  }
+    "node": ">=20.0.0"  
 }
