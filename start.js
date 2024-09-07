@@ -23,8 +23,5 @@ function startBotProcess(script, command = "node") {
     });
 }
 
-// Start the bot process for the Node.js script first
-startBotProcess("monitor.js");
-
 // Start the bot process for the Python script after monitor.js
 startBotProcess("main.py", "python"); // or use "python3" if needed
