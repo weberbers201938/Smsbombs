@@ -4,7 +4,7 @@
   "description": "A bot runner that starts monitor.js (Node.js) and system.py (Python) processes.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node start.js",
     "start-monitor": "node monitor.js",
     "start-system": "python system.py",
     "dev": "node index.js"  // or any script command you prefer for development
