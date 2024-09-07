@@ -1,0 +1,23 @@
+{
+  "name": "smsbomb",
+  "version": "1.0.0",
+  "description": "A bot runner that starts monitor.js (Node.js) and system.py (Python) processes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-monitor": "node monitor.js",
+    "start-system": "python system.py",
+    "dev": "node index.js"  // or any script command you prefer for development
+  },
+  "author": "Berwin",
+  "license": "MIT",
+  "dependencies": {
+    // Add any required dependencies here
+  },
+  "devDependencies": {
+    // Add any development dependencies if needed
+  },
+  "engines": {
+    "node": ">=20.0.0"  // Ensures compatibility with Node.js 20 as per your preference
+  }
+}
